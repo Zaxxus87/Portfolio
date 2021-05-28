@@ -1,3 +1,12 @@
+/*normalizes page */
+body {
+    margin: auto 0;
+
+}
+
+/***********************************************************************
+ *  Nav Bar
+ **********************************************************************/
 
 li{
     padding: 20px;
@@ -5,12 +14,82 @@ li{
 
 a {
     list-style: none;
+    color: blue;
     text-decoration: none;
 }
+
 
 .main-nav {
     display: flex;
     list-style: none;
-    font-size: 1.2em;
-    margin: 0
+    font-size: 1.4em;
+    margin: 0;
 }
+
+.push {
+    margin-left: auto;
+    padding-right: 10%;
+}
+
+.sticky {
+    background-color: azure;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+/***********************************************************************
+ *  Cover Section
+ **********************************************************************/
+
+ .container {
+    font-size: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/Images/WebBackgroundA.jpg);
+    height: 85vh;   
+}
+
+.text-format {
+    font-size: xx-large;
+    font-weight: 400;
+    text-align: left;
+    margin-left:-60%;
+    margin-top: -10%;
+}
+
+/***********************************************************************
+ *  Grid Section
+ **********************************************************************/
+
+h1 {
+    font-size: 1em;
+    padding: 0;
+    display: flex;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+ }
+.grid-wrapper {
+    display: grid;
+    gap: 20 px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    padding: 50px;
+    
+    
+}
+
+.box {
+    background-color: aqua;
+    padding: 85px;
+    margin: 20px;
+}
+
+/***********************************************************************
+ * Footer
+ **********************************************************************/
+ footer {
+     text-align: center;
+     background-color: bisque;
+ }
