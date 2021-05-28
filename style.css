@@ -1,0 +1,16 @@
+
+li{
+    padding: 20px;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.main-nav {
+    display: flex;
+    list-style: none;
+    font-size: 1.2em;
+    margin: 0
+}
